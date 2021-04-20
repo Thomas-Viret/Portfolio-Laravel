@@ -13,6 +13,37 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',
+
+[
+    // "Target"
+    'uses' => 'MainController@home',
+    // Route name
+    'as'   => 'main-home'
+]
+
+    // function () {
+    // return view('welcome');
+    // }
+
+);
+
+Route::get('/formation', function () {
+    return view('formation', ['name' => 'Thomas']);
 });
+
+
+Route::get('user/create','UserController@create')->name('user.create');
+Route::post('user/store','UserController@store')->name('user.store');
+Route::get('user','UserController@index')->name('user.index');
+
+#/routes/web.php
+Route::get('/user/edit/{user}','UserController@edit')->name('user.edit');
+Route::put('/user/edit/{user}','UserController@update')->name('user.update');
+
+#/routes/web.php
+Route::get('/user/password/{user}','UserController@password')->name('user.password');
+Route::put('/user/password/{user}','UserController@password_store')->name('user.password_store');
+
+
+Route::delete('/user/{user}','UserController@destroy')->name('user.destroy');
