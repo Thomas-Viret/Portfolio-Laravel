@@ -1,18 +1,30 @@
 @extends('layouts.app')
 
 @section('content')
-                <div class="title m-b-md">
+                <!-- <div class="title m-b-md">
                     Thomas Viret
-                </div>
+                </div> -->
+
+
+                    <div class="neon-wrapper">
+                        <div class="neon-text">THOMAS VIRET</div>
+                    </div>
+
+
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <ul>
+                        <li><a href="#">Présentation</a></li>
+
+                        <li><a href="#">Projets</a></li>
+
+                        <li><a href="#">Compétences</a></li>
+
+                        <li><a href="#">Formation</a></li>
+
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+
                 </div>
 @endsection

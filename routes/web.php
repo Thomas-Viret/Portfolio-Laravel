@@ -32,6 +32,8 @@ Route::get('/formation', function () {
     return view('formation', ['name' => 'Thomas']);
 });
 
+Route::get('/skill','MainController@skill')->name('main-skill');
+
 
 Route::get('user/create','UserController@create')->name('user.create');
 Route::post('user/store','UserController@store')->name('user.store');

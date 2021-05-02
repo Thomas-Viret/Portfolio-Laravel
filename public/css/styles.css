@@ -1,0 +1,348 @@
+
+/* ------   Laravel  ------ */
+
+
+
+   /* html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+} */
+
+/* .full-height {
+    height: 100vh;
+} */
+
+/* .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .position-ref {
+    position: relative;
+} */
+
+/* .content {
+    text-align: center;
+
+} */
+
+/* .title {
+    font-size: 84px;
+} */
+
+/* .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+} */
+
+/* .m-b-md {
+    margin-bottom: 30px;
+} */
+
+/* ul {
+    list-style-type: none;
+} */
+
+html
+{
+  background:black;
+  color:#00AAFF;
+  font-family: 'Orbitron', sans-serif;
+}
+
+ul
+{
+  margin-top:30px;
+  perspective: 700px;
+  list-style:none;
+}
+
+li
+{
+  font-size:30px;
+  border: 3px solid;
+  line-height:90px;
+  transform: rotateX(60deg);
+  width:100%;
+  border-radius:4px;
+  text-align:center;
+  animation: out 0.5s linear;
+  background-color:black;
+  margin-top:-20px;
+  position:relative;
+}
+
+li:hover
+{
+  transform: rotateX(0deg);
+  animation: in  0.5s  linear;
+}
+
+
+
+
+
+ /* ------ Néon -------  */
+
+ /* @font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  }
+
+  body {
+    background-color: #141114;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  }
+
+  .sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #18356b,
+      transparent
+    );
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 50%;
+    top: 50%;
+    font-family: "Clip";
+    text-transform: uppercase;
+    font-size: 6em;
+    color: #e8e6ff;
+    text-shadow: 0 0 0.6rem #e8e6ff, 0 0 1.5rem #6f65ff,
+      -0.2rem 0.1rem 1rem #6f65ff, 0.2rem 0.1rem 1rem #6f65ff,
+      0 -0.5rem 2rem #4524ff, 0 0.5rem 3rem #4524ff;
+    animation: shine 2s forwards, flicker 3s infinite;
+  }
+
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #e8e6ff;
+      text-shadow: 0 0 0.6rem #e8e6ff, 0 0 1.5rem #6f65ff,
+        -0.2rem 0.1rem 1rem #6f65ff, 0.2rem 0.1rem 1rem #6f65ff,
+        0 -0.5rem 2rem #4524ff, 0 0.5rem 3rem #4524ff;
+    }
+    28%,
+    33% {
+      color: #6f65ff;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #4524ff;
+      text-shadow: none;
+    }
+  }
+
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      color: #18356b;
+      text-shadow: none;
+    }
+    100% {
+      color: #e8e6ff;
+      text-shadow: 0 0 0.6rem #e8e6ff, 0 0 1.5rem #6f65ff,
+        -0.2rem 0.1rem 1rem #6f65ff, 0.2rem 0.1rem 1rem #6f65ff,
+        0 -0.5rem 2rem #4524ff, 0 0.5rem 3rem #4524ff;
+    }
+  }
+
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+
+    4% {
+      opacity: 0.9;
+    }
+
+    6% {
+      opacity: 0.85;
+    }
+
+    8% {
+      opacity: 0.95;
+    }
+
+    10% {
+      opacity: 0.9;
+    }
+
+    11% {
+      opacity: 0.922;
+    }
+
+    12% {
+      opacity: 0.9;
+    }
+
+    14% {
+      opacity: 0.95;
+    }
+
+    16% {
+      opacity: 0.98;
+    }
+
+    17% {
+      opacity: 0.9;
+    }
+
+    19% {
+      opacity: 0.93;
+    }
+
+    20% {
+      opacity: 0.99;
+    }
+
+    24% {
+      opacity: 1;
+    }
+
+    26% {
+      opacity: 0.94;
+    }
+
+    28% {
+      opacity: 0.98;
+    }
+
+    37% {
+      opacity: 0.93;
+    }
+
+    38% {
+      opacity: 0.5;
+    }
+
+    39% {
+      opacity: 0.96;
+    }
+
+    42% {
+      opacity: 1;
+    }
+
+    44% {
+      opacity: 0.97;
+    }
+
+    46% {
+      opacity: 0.94;
+    }
+
+    56% {
+      opacity: 0.9;
+    }
+
+    58% {
+      opacity: 0.9;
+    }
+
+    60% {
+      opacity: 0.99;
+    }
+
+    68% {
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 0.9;
+    }
+
+    72% {
+      opacity: 0.95;
+    }
+
+    93% {
+      opacity: 0.93;
+    }
+
+    95% {
+      opacity: 0.95;
+    }
+
+    97% {
+      opacity: 0.93;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+ */
+
+
+
+ /* ----------------------- NEON 2 ----------------------------- */
+
+body {
+    background-color: black;
+    background-image: url('../Images/thumb-1920-439391.jpg');
+    background-size: cover;
+
+}
+
+
+@font-face {
+    font-family: neon;
+    src: url('../fonts/hellodenverdisplayregular_v1.6.ttf');
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.neon-text {
+    font-family: neon;
+    font-size: 10rem;
+    color: #d4d4ec;
+    text-shadow:
+    /* .1vw 0vw .25vw #d4d4ec, .2vw 0vw .25vw #d4d4ec, .4vw 0vw .25vw #d4d4ec, */
+
+    .1vw 0vw   0vw #5774f2, .2vw 0vw   0vw #5774f2, .4vw 0vw   0vw #5774f2,
+    .1vw 0vw  .1vw #5774f2, .2vw 0vw  .1vw #5774f2, .4vw 0vw  .1vw #5774f2,
+    .1vw 0vw   2vw #5774f2, .2vw 0vw   2vw #5774f2, .4vw 0vw   2vw #5774f2,
+
+    .1vw 0vw   1vw #1a0be5, .2vw 0vw   1vw #1a0be5, .4vw 0vw   5vw #1a0be5,
+    .1vw 0vw   5vw #1a0be5, .2vw 0vw  20vw #1a0be5, .4vw 0vw  10vw #1a0be5,
+    .1vw 0vw  10vw #1a0be5, .2vw 0vw  30vw #1a0be5, .4vw 0vw  10vw #1a0be5;
+
+}

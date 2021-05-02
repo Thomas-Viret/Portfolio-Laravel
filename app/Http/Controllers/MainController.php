@@ -11,4 +11,13 @@ class MainController extends Controller
     {
         return view('welcome');
     }
+
+    /**
+     * skill page
+     */
+    public function skill()
+    {
+        return view('skill');
+    }
+
 }
