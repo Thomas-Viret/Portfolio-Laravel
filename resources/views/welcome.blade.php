@@ -7,12 +7,23 @@
 
 
                     <div class="neon-wrapper">
-                        <div class="neon-text">THOMAS VIRET</div>
+                        <div class="neon-text">T<span class="fast-flicker">HO</span>MAS VIR<span class="flicker">E</span>T</div>
+                        <div class="tron">
+                            <h1> Bienvenue dans mon Portfolio</h1>
+                            <ul class="nav">
+                                <li><a href="#">Présentation</a></li>
+                                <li><a href="#">Projets</a></li>
+                                <li><a href="<?= route('main-skill')?>">Compétences</a></li>
+                                <li><a href="#">Formation</a></li>
+                                <li><a href="#">Contact</a></li>
+
+                            </ul>
+                        </div>
                     </div>
 
 
 
-                <div class="links">
+                <!-- <div class="links">
                     <ul>
                         <li><a href="#">Présentation</a></li>
 
@@ -26,5 +37,8 @@
 
                     </ul>
 
-                </div>
+                </div> -->
+
+
+
 @endsection
