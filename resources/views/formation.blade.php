@@ -3,6 +3,7 @@
 @section('content')
 
                 <div class="neon-wrapper">
+                @include('partials.nav');
                         <div class="neon-text">F<span class="fast-flicker">O</span>RMAT<span class="flicker">I</span>ON</div>
                         <div class="tron">
 

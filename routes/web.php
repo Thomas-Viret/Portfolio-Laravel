@@ -27,7 +27,7 @@ Route::get('/',
 );
 
 // ------------  PRESENTATION   ------------ //
-Route::get('/présentation','MainController@presentation')->name('main-presentation');
+Route::get('/presentation','MainController@presentation')->name('main-presentation');
 
 
 // ------------  FORMATION   ------------ //

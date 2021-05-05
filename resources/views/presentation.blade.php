@@ -6,15 +6,10 @@
 
                 <div class="neon-wrapper">
 
-                <div class="links">
-                    <a  class="links--a" href="<?= route('main-presentation')?>">Présentation</a>
-                    <a  class="links--a" href="<?= route('main-projects')?>">Projets</a>
-                    <a  class="links--a" href="<?= route('main-skills')?>">Compétences</a>
-                    <a  class="links--a" href="<?= route('main-formation')?>">Formation</a>
-                    <a  class="links--a" href="<?= route('main-contact')?>">Contact</a>
-                </div>
 
-                        <div class="neon-text">PRE<span class="fast-flicker">S</span>ENTAIO<span class="flicker">N</span></div>
+                @include('partials.nav');
+
+                        <div class="neon-text">PRE<span class="fast-flicker">S</span>ENTATIO<span class="flicker">N</span></div>
                         <div class="tron">
 
                             <p>Bonjour, </p>
