@@ -6,6 +6,7 @@
 
 
                 <div class="neon-wrapper">
+                @include('partials.accueil');
                 @include('partials.nav');
                         <div class="neon-text">PRO<span class="fast-flicker">J</span>E<span class="flicker">T</span>S</div>
                         <div class="tron">

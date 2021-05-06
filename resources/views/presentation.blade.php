@@ -7,6 +7,8 @@
                 <div class="neon-wrapper">
 
 
+                @include('partials.accueil');
+
                 @include('partials.nav');
 
                         <div class="neon-text">PRE<span class="fast-flicker">S</span>ENTATIO<span class="flicker">N</span></div>
