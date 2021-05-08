@@ -7,7 +7,7 @@
                 <div class="neon-wrapper">
 
 
-                @include('partials.accueil');
+
 
                 @include('partials.nav');
 
@@ -27,7 +27,7 @@
 
                                                         <p>mais je me suis dit que le social, le contact et les relations ont évolué alors pourquoi pas moi ???</p>
 
-                                                        <p>Je viens de terminer ma formation cd qui marque le début le début de l'aventure </p>
+                                                        <p>Je viens de terminer ma formation ce qui marque le début de l'aventure </p>
 
                                                         <p>J'ai énormément apprécié apprendre le développement web, en particulier le backend</p>
 
