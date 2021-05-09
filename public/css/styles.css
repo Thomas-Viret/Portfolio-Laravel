@@ -135,17 +135,11 @@ a {
 }
 
 
-.tron
-{
-  padding:100px;
-  border-radius:4px;
 
-}
 
 h1
 {
   text-align:center;
-  font-size:2em;
   animation: scale  0.5s linear ;
 }
 
@@ -218,14 +212,10 @@ animation: blinky linear infinite 3s;
 
 
 
-.content--box h2 {
-    font-size:19px;
-}
+
 
 .box{
 transform: translate(0, 0);
-width: 600px;
-height: 600px;
 background: #111845a6;
 overflow: hidden;
 box-shadow: 0 20px 50px rgb(23, 32, 90);
@@ -241,7 +231,6 @@ left:15px;
 right:15px;
 bottom:15px;
 color:#d4d4ec;
-padding:20px;
 text-align:center;
 box-shadow: 0 5px 10px rgba(9,0,0,0.5);
 
@@ -457,12 +446,13 @@ animation: animate 4s linear infinite;
 
     .neon-text {
 
-      font-size: 5rem;
-      display: flex;
+      font-size: 3rem;
+      /* display: flex;
       flex-direction: column;
       justify-content: center;
-      flex-wrap: wrap;
+      flex-wrap: wrap; */
     }
+
 
 
 
@@ -492,11 +482,11 @@ animation: animate 4s linear infinite;
 
     .neon-text {
 
-        font-size: 7rem;
-        display: flex;
+        font-size: 5rem;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
     }
 
 
@@ -507,6 +497,18 @@ animation: animate 4s linear infinite;
 
 
   @media (max-width: 800px) {
+
+    .tron
+    {
+    padding:50px;
+    /* border-radius:4px; */
+
+    }
+
+    .box {
+        width: 300px;
+        height: 300px;
+    }
 
     .links--ul, .links {
         flex-direction: column;
@@ -552,7 +554,26 @@ animation: animate 4s linear infinite;
     input[type="checkbox"]:checked + label:before {
         content: "\f00d";
     }
+    h1 {
+        font-size:1em;
+    }
 
+    .content--box h2 {
+        font-size:14px;
+    }
+
+    .content--box p {
+        font-size:10px;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    .box .content--box{
+
+        padding:10px;
+
+
+    }
 
   }
 
@@ -567,10 +588,10 @@ animation: animate 4s linear infinite;
       .neon-text {
 
         font-size: 7rem;
-        display: flex;
+        /* display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
       }
 
     .nav
@@ -586,8 +607,38 @@ animation: animate 4s linear infinite;
         display: block;
     }
 
+    h1 {
+        font-size:2em;
+    }
+
+    .content--box h2 {
+        font-size:19px;
+    }
+
+    .content--box p {
+        font-size:15px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .tron
+    {
+    padding:100px;
+    /* border-radius:4px; */
+
+    }
+
+    .box {
+        width: 600px;
+        height: 600px;
+    }
+
+    .box .content--box{
+
+        padding:20px;
 
 
+    }
   }
 
 
@@ -603,10 +654,10 @@ animation: animate 4s linear infinite;
       .neon-text {
 
         font-size: 10rem;
-        display: flex;
+        /* display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
       }
 
       .lastname {

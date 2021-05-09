@@ -59,8 +59,6 @@
 
 
                                                             <p>Mais comment me direz-vous ? </p>
-                                                            <p>Chuuut c'est un secret </p>
-                                                            <p>Bon ok quelques infos :</p>
 
                                                             <p>Tout d'abord, on m'a fait découvrir que je rentrais dans un vaste univers de langages et de technologies</p>
 
