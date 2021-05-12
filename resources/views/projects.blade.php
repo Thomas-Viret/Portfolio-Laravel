@@ -16,7 +16,7 @@
                                 <li>Projet 2</li>
                                 <li>Projet 3</li>
                                 <li>Projet 4</li>
-                                <li>Projet 5</li>
+                                <li><a href="http://localhost/s5/S05-E01-exo-controllers-views-Thomas-Viret/">FRESH COFFEE SHOP</a></li>
 
                             </ul>
                         </div>
