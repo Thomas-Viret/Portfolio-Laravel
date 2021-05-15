@@ -65,7 +65,7 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://50.16.45.145/project/angry-birds/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
@@ -96,7 +96,7 @@
                                         <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
-                                    <h2>PORTFOLIO</h2><p>Site vitrine d'un commerce de vente de café</p>
+                                    <h2>PORTFOLIO</h2><p>Le PortFolio que vous parcourez actuellement</p>
                                     <div class="techno-all">
                                             <p class="techno">LARAVEL</p>
                                             <p class="techno">MySQL</p>

@@ -179,6 +179,7 @@ h1
     border-radius: 10px;
 }
 
+
 li
 {
   font-size:20px;
@@ -194,7 +195,29 @@ li
   position:relative;
 }
 
+.welcom-li
+{
+  font-size:30px;
+  border: 3px solid;
+  line-height:90px;
+  transform: rotateX(60deg);
+  width:100%;
+  border-radius:4px;
+  text-align:center;
+  animation: out 0.5s linear;
+  background-color:black;
+  margin-top:-20px;
+  position:relative;
+}
+
+
 li:hover
+{
+  transform: rotateX(0deg);
+  animation: in  0.5s  linear;
+}
+
+.welcom-li:hover
 {
   transform: rotateX(0deg);
   animation: in  0.5s  linear;
