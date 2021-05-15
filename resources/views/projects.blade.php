@@ -13,7 +13,7 @@
                         <h1> Liste de mes projets</h1>
                             <ul class="nav">
                                 <li>
-                                    <h2>O'solidaire</h2><p>Site d'entraide</p>
+                                    <h2>O'solidaires</h2><p>Site d'entraide</p>
                                     <div class="techno-all">
                                             <p class="techno">Symfony</p>
                                             <p class="techno">Twig</p>
@@ -28,7 +28,7 @@
                                         <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
-                                    <h2>O'solidaire Back Office</h2><p>Back Office d'un site d'entraide</p>
+                                    <h2>O'solidaires Back Office</h2><p>Back Office d'un site d'entraide</p>
                                     <div class="techno-all">
                                             <p class="techno">Symfony</p>
                                             <p class="techno">Twig</p>
@@ -52,8 +52,8 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
-                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                        <a  href="http://50.16.45.145/project/movie-db/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/movie-db"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
                                     <h2>Angry Birds</h2><p>Site d'informations sur les personnages d'Angry Birds</p>
@@ -66,7 +66,7 @@
                                         </div>
                                     <div class="links-ext">
                                         <a  href="http://50.16.45.145/project/angry-birds/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
-                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/angry-birds"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
                                     <h2>OSHOP</h2><p>Site e-commerce de vente de chaussures</p>
