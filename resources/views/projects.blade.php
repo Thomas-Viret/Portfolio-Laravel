@@ -12,11 +12,101 @@
                         <div class="tron">
                         <h1> Liste de mes projets</h1>
                             <ul class="nav">
-                                <li>Projet 1</li>
-                                <li>Projet 2</li>
-                                <li>Projet 3</li>
-                                <li><a href="http://50.16.45.145/project/oshop/public/">OSHOP</a></li>
-                                <li><a href="http://50.16.45.145/project/coffee-shop/">FRESH COFFEE SHOP</a></li>
+                                <li>
+                                    <h2>O'solidaire</h2><p>Site d'entraide</p>
+                                    <div class="techno-all">
+                                            <p class="techno">Symfony</p>
+                                            <p class="techno">Twig</p>
+                                            <p class="techno">ORM Doctrine</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
+                                <li>
+                                    <h2>O'solidaire Back Office</h2><p>Back Office d'un site d'entraide</p>
+                                    <div class="techno-all">
+                                            <p class="techno">Symfony</p>
+                                            <p class="techno">Twig</p>
+                                            <p class="techno">ORM Doctrine</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
+                                <li>
+                                    <h2>Movie db</h2><p>Site d'informations cinématographiques </p>
+                                    <div class="techno-all">
+                                            <p class="techno">Symfony</p>
+                                            <p class="techno">Twig</p>
+                                            <p class="techno">ORM Doctrine</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
+                                <li>
+                                    <h2>Angry Birds</h2><p>Site d'informations sur les personnages d'Angry Birds</p>
+                                    <div class="techno-all">
+                                            <p class="techno">Symfony</p>
+                                            <p class="techno">Twig</p>
+                                            <p class="techno">ORM Doctrine</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
+                                <li>
+                                    <h2>OSHOP</h2><p>Site e-commerce de vente de chaussures</p>
+                                    <div class="techno-all">
+                                            <p class="techno">PHP</p>
+                                            <p class="techno">AltoRouter</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/oshop/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/oshop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <h2>FRESH COFFEE SHOP</h2><p>Site vitrine d'un commerce de vente de café</p>
+                                    <div class="techno-all">
+                                            <p class="techno">PHP</p>
+                                            <p class="techno">Bootstrap</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
+                                <li>
+                                    <h2>PORTFOLIO</h2><p>Site vitrine d'un commerce de vente de café</p>
+                                    <div class="techno-all">
+                                            <p class="techno">LARAVEL</p>
+                                            <p class="techno">MySQL</p>
+                                            <p class="techno">MVC</p>
+                                            <p class="techno">JavaScript</p>
+                                        </div>
+                                    <div class="links-ext">
+                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                </li>
 
                             </ul>
                         </div>

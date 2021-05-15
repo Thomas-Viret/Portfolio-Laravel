@@ -152,14 +152,38 @@ h1
   list-style:none;
 }
 
+.links-ext {
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+}
 
+.external {
+ /* background-color: #00AAFF; */
+ width: 50px;
+ /* border-radius: 5px; */
+}
 
+.techno-all {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.techno {
+    font-size: 15px;
+    color: black;
+    background-color:#00AAFF;
+    padding: 3px;
+    border-radius: 10px;
+}
 
 li
 {
-  font-size:30px;
+  font-size:20px;
   border: 3px solid;
-  line-height:90px;
+  /* line-height:90px; */
   transform: rotateX(60deg);
   width:100%;
   border-radius:4px;
@@ -594,10 +618,10 @@ animation: animate 4s linear infinite;
         flex-wrap: wrap; */
       }
 
-    .nav
+    /* .nav
     {
         perspective: 700px;
-    }
+    } */
 
     .lastname {
         margin-right: 2rem;
