@@ -15,7 +15,7 @@
                                 <li>Projet 1</li>
                                 <li>Projet 2</li>
                                 <li>Projet 3</li>
-                                <li>Projet 4</li>
+                                <li><a href="http://50.16.45.145/project/oshop/public/">OSHOP</a></li>
                                 <li><a href="http://50.16.45.145/project/coffee-shop/">FRESH COFFEE SHOP</a></li>
 
                             </ul>
