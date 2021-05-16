@@ -24,22 +24,8 @@
                                         </div>
                                     <div class="links-ext">
 
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
-                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
-                                </li>
-                                <li>
-                                    <h2>O'solidaires Back Office</h2><p>Back Office d'un site d'entraide</p>
-                                    <div class="techno-all">
-                                            <p class="techno">Symfony</p>
-                                            <p class="techno">Twig</p>
-                                            <p class="techno">ORM Doctrine</p>
-                                            <p class="techno">Bootstrap</p>
-                                            <p class="techno">MySQL</p>
-                                            <p class="techno">MVC</p>
-                                        </div>
-                                    <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
-                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                        <a  href="http://50.16.45.145/project/osolidaires/public/front/requests"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/osolidaires"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
                                     <h2>Movie db</h2><p>Site d'informations cinématographiques </p>
