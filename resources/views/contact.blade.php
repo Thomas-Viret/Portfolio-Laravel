@@ -11,11 +11,10 @@
                         <div class="neon-text">C<span class="fast-flicker">O</span>NTAC<span class="flicker">T</span></div>
                         <div class="tron">
                             <ul class="nav">
-                                <li class="welcom-li">Contact 1</li>
-                                <li class="welcom-li">Contact 2</li>
-                                <li class="welcom-li">Contact 3</li>
-                                <li class="welcom-li">Contact 4</li>
-                                <li class="welcom-li">Contact 5</li>
+                                <li class="welcom-li">th.viret@gmail.com</th></li>
+                                <li class="welcom-li"><a href="https://www.linkedin.com/in/thomasviret">LinkedIn</a></li>
+                                <li class="welcom-li"><a href="https://github.com/Thomas-Viret?tab=repositories">Github</a></li>
+
 
                             </ul>
                         </div>
