@@ -42,6 +42,10 @@ Route::get('/projects','MainController@projects')->name('main-projects');
 // ------------  CONTACT   ------------ //
 Route::get('/contact','MainController@contact')->name('main-contact');
 
+
+// ------------  DOWNLOAD CV   ------------ //
+Route::get('/download', 'DownloadsController@download')->name('download');
+
 // ------------  CREATION UTILISATEUR   ------------ //
 Route::get('user/create','UserController@create')->name('user.create');
 Route::post('user/store','UserController@store')->name('user.store');
@@ -59,3 +63,6 @@ Route::put('/user/password/{user}','UserController@password_store')->name('user.
 
 // ------------  SUPPRIMER UN UTILISATEUR   ------------ //
 Route::delete('/user/{user}','UserController@destroy')->name('user.destroy');
+
+
+
