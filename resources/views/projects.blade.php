@@ -24,7 +24,7 @@
                                         </div>
                                     <div class="links-ext">
 
-                                        <a  href="http://50.16.45.145/project/osolidaires/public/front/requests"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/osolidaires/public/front/requests"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/osolidaires"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
@@ -38,7 +38,7 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/movie-db/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/movie-db/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/movie-db"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
@@ -51,7 +51,7 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/angry-birds/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/angry-birds/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/angry-birds"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
@@ -64,7 +64,7 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/oshop/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/oshop/public/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/oshop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                     </div>
 
@@ -78,7 +78,7 @@
                                             <p class="techno">MVC</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
                                 <li>
@@ -90,7 +90,7 @@
                                             <p class="techno">JavaScript</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://50.16.45.145/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
+                                        <a  href="http://54.156.70.255/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
                                         <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
 
