@@ -90,8 +90,7 @@
                                             <p class="techno">JavaScript</p>
                                         </div>
                                     <div class="links-ext">
-                                        <a  href="http://54.156.70.255/project/coffee-shop/"><img class="external" src="{{ asset('Images/lien (1).svg') }}"></a>
-                                        <a  href="https://github.com/Thomas-Viret/coffee-shop"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
+                                        <a  href="https://github.com/Thomas-Viret/Portfolio-Laravel"><img class="external" src="{{ asset('Images/github.svg') }}"></a>
                                 </li>
 
                             </ul>
