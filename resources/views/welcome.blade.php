@@ -5,6 +5,7 @@
 
                     <div class="neon-wrapper">
                         <div class="neon-text"><div class="lastname">T<span class="fast-flicker">HO</span>MAS </div><div>VIR<span class="flicker">E</span>T</div></div>
+
                         <div class="tron">
                             <h1> Bienvenue dans mon Portfolio</h1>
                             <ul class="nav">
